@@ -13,6 +13,20 @@ config TARGET_NANOPI6
 	help
 	  Support for FriendlyElec boards based on RK3588.
 
+config TARGET_MCAM
+	bool "dy008 rk3588 series"
+	select BOARD_LATE_INIT
+	select VENDOR_DY008
+	help
+	  Support for dy008 boards based on RK3588.
+
+config TARGET_SY2223
+	bool "dy008 rk3588s series"
+	select BOARD_LATE_INIT
+	select VENDOR_DY008
+	help
+	  Support for dy008 boards based on RK3588s.
+
 config SYS_SOC
 	default "rockchip"
 
@@ -21,5 +35,7 @@ config SYS_MALLOC_F_LEN
 
 source board/rockchip/evb_rk3588/Kconfig
 source board/rockchip/nanopi6/Kconfig
+source board/rockchip/mcam/Kconfig
+source board/rockchip/sy2223/Kconfig
 
 endif

@@ -1,0 +1,6 @@
+mcam Series
+M:      <dy008@163.com>
+S:      Maintained
+F:      board/rockchip/sy2223/
+F:      include/configs/sy2223.h
+F:      configs/sy2223_defconfig

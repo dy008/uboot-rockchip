@@ -1,0 +1,6 @@
+mcam Series
+M:      <dy008@163.com>
+S:      Maintained
+F:      board/rockchip/mcam/
+F:      include/configs/mcam.h
+F:      configs/mcam_defconfig
